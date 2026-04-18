@@ -1,0 +1,353 @@
+# Tourist-helper-<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chhatrapati Sambhajinagar | Heritage Tourism</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Cormorant+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+
+<!-- ============ HEADER / NAVIGATION ============ -->
+<header class="navbar">
+    <div class="navbar-container">
+        <div class="logo">
+            <span class="logo-icon">🏛️</span>
+            <span class="logo-text">Sambhajinagar</span>
+        </div>
+        <nav class="nav-menu">
+            <a href="#sites" class="nav-link">Historic Sites</a>
+            <a href="#essentials" class="nav-link">Local Essentials</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#contact" class="nav-link nav-cta">Plan Your Visit</a>
+        </nav>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</header>
+
+<!-- ============ HERO SECTION ============ -->
+<section class="hero">
+    <div class="hero-content">
+        <div class="hero-text">
+            <h1 class="hero-title">
+                <span class="subtitle">Discover</span>
+                <span class="main-title">Ancient Wonders</span>
+                <span class="subtitle">of the Deccan</span>
+            </h1>
+            <p class="hero-description">
+                Explore world-renowned heritage sites: Ajanta & Ellora Caves, Bibi Ka Maqbara, 
+                Daulatabad Fort, and more. A journey through centuries of architecture, art, and culture.
+            </p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" data-scroll-to="sites">Explore Sites</button>
+                <button class="btn btn-secondary">Learn More</button>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="decorative-arch"></div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number">6+</span>
+                    <span class="stat-label">UNESCO Sites</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">1500+</span>
+                    <span class="stat-label">Years of History</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hero-divider"></div>
+</section>
+
+<!-- ============ SITES GALLERY ============ -->
+<section id="sites" class="sites-gallery">
+    <div class="section-header">
+        <h2 class="section-title">Historic Sites</h2>
+        <p class="section-subtitle">Must-visit destinations with UNESCO recognition</p>
+    </div>
+
+    <div class="sites-container">
+        <!-- Site Card 1: Ajanta Caves -->
+        <article class="site-card" data-site="ajanta">
+            <div class="site-image-wrapper">
+                <div class="site-image placeholder-image">
+                    <span class="placeholder-text">🎨</span>
+                </div>
+                <div class="site-badge">UNESCO</div>
+            </div>
+            <div class="site-content">
+                <h3 class="site-title">Ajanta Caves</h3>
+                <p class="site-description">
+                    A cluster of 30 rock-cut Buddhist caves featuring intricate murals, sculptures, and architectural brilliance from the 2nd century BCE.
+                </p>
+                <div class="site-details">
+                    <div class="detail">
+                        <span class="detail-label">📍 Distance:</span>
+                        <span>107 km from city</span>
+                    </div>
+                    <div class="detail">
+                        <span class="detail-label">⏱️ Best Time:</span>
+                        <span>Oct - Mar</span>
+                    </div>
+                </div>
+                <div class="site-actions">
+                    <a href="https://maps.google.com/?q=Ajanta+Caves" target="_blank" class="site-link">📍 View on Map</a>
+                </div>
+            </div>
+        </article>
+
+        <!-- Site Card 2: Ellora Caves -->
+        <article class="site-card" data-site="ellora">
+            <div class="site-image-wrapper">
+                <div class="site-image placeholder-image">
+                    <span class="placeholder-text">⛩️</span>
+                </div>
+                <div class="site-badge">UNESCO</div>
+            </div>
+            <div class="site-content">
+                <h3 class="site-title">Ellora Caves</h3>
+                <p class="site-description">
+                    34 magnificent caves spanning Buddhist, Hindu, and Jain architecture. The Kailasa Temple is a masterpiece carved from a single rock.
+                </p>
+                <div class="site-details">
+                    <div class="detail">
+                        <span class="detail-label">📍 Distance:</span>
+                        <span>29 km from city</span>
+                    </div>
+                    <div class="detail">
+                        <span class="detail-label">⏱️ Best Time:</span>
+                        <span>Oct - Mar</span>
+                    </div>
+                </div>
+                <div class="site-actions">
+                    <a href="https://maps.google.com/?q=Ellora+Caves" target="_blank" class="site-link">📍 View on Map</a>
+                </div>
+            </div>
+        </article>
+
+        <!-- Site Card 3: Bibi Ka Maqbara -->
+        <article class="site-card" data-site="bibi">
+            <div class="site-image-wrapper">
+                <div class="site-image placeholder-image">
+                    <span class="placeholder-text">🕌</span>
+                </div>
+                <div class="site-badge">Monument</div>
+            </div>
+            <div class="site-content">
+                <h3 class="site-title">Bibi Ka Maqbara</h3>
+                <p class="site-description">
+                    The "Taj of the Deccan" — an exquisite mausoleum built by Aurangzeb for his wife Dilras Banu Begum. A stunning example of Mughal architecture.
+                </p>
+                <div class="site-details">
+                    <div class="detail">
+                        <span class="detail-label">📍 Distance:</span>
+                        <span>6 km from city</span>
+                    </div>
+                    <div class="detail">
+                        <span class="detail-label">⏱️ Best Time:</span>
+                        <span>Oct - Mar</span>
+                    </div>
+                </div>
+                <div class="site-actions">
+                    <a href="https://maps.google.com/?q=Bibi+Ka+Maqbara" target="_blank" class="site-link">📍 View on Map</a>
+                </div>
+            </div>
+        </article>
+
+        <!-- Site Card 4: Daulatabad Fort -->
+        <article class="site-card" data-site="daulatabad">
+            <div class="site-image-wrapper">
+                <div class="site-image placeholder-image">
+                    <span class="placeholder-text">🏰</span>
+                </div>
+                <div class="site-badge">Monument</div>
+            </div>
+            <div class="site-content">
+                <h3 class="site-title">Daulatabad Fort</h3>
+                <p class="site-description">
+                    An imposing medieval fort perched on a hilltop with triple concentric walls. Climb to the summit for panoramic views of the Deccan plateau.
+                </p>
+                <div class="site-details">
+                    <div class="detail">
+                        <span class="detail-label">📍 Distance:</span>
+                        <span>15 km from city</span>
+                    </div>
+                    <div class="detail">
+                        <span class="detail-label">⏱️ Best Time:</span>
+                        <span>Oct - Mar (Morning)</span>
+                    </div>
+                </div>
+                <div class="site-actions">
+                    <a href="https://maps.google.com/?q=Daulatabad+Fort" target="_blank" class="site-link">📍 View on Map</a>
+                </div>
+            </div>
+        </article>
+
+        <!-- Site Card 5: Grishneshwar Temple -->
+        <article class="site-card" data-site="grishneshwar">
+            <div class="site-image-wrapper">
+                <div class="site-image placeholder-image">
+                    <span class="placeholder-text">🙏</span>
+                </div>
+                <div class="site-badge">Temple</div>
+            </div>
+            <div class="site-content">
+                <h3 class="site-title">Grishneshwar Temple</h3>
+                <p class="site-description">
+                    One of the 12 sacred Jyotirlingas in India. An ancient Hindu temple with intricate stone carvings and spiritual significance.
+                </p>
+                <div class="site-details">
+                    <div class="detail">
+                        <span class="detail-label">📍 Distance:</span>
+                        <span>32 km from city</span>
+                    </div>
+                    <div class="detail">
+                        <span class="detail-label">⏱️ Best Time:</span>
+                        <span>Year-round (Early morning)</span>
+                    </div>
+                </div>
+                <div class="site-actions">
+                    <a href="https://maps.google.com/?q=Grishneshwar+Temple" target="_blank" class="site-link">📍 View on Map</a>
+                </div>
+            </div>
+        </article>
+
+        <!-- Site Card 6: Panchakki -->
+        <article class="site-card" data-site="panchakki">
+            <div class="site-image-wrapper">
+                <div class="site-image placeholder-image">
+                    <span class="placeholder-text">💧</span>
+                </div>
+                <div class="site-badge">Historic</div>
+            </div>
+            <div class="site-content">
+                <h3 class="site-title">Panchakki (Mill)</h3>
+                <p class="site-description">
+                    A historic 17th-century watermill built by Aurangzeb's governor. Named "Panchakki" (five mills), it's an engineering marvel of its time.
+                </p>
+                <div class="site-details">
+                    <div class="detail">
+                        <span class="detail-label">📍 Distance:</span>
+                        <span>1 km from city center</span>
+                    </div>
+                    <div class="detail">
+                        <span class="detail-label">⏱️ Best Time:</span>
+                        <span>Oct - Mar</span>
+                    </div>
+                </div>
+                <div class="site-actions">
+                    <a href="https://maps.google.com/?q=Panchakki+Aurangabad" target="_blank" class="site-link">📍 View on Map</a>
+                </div>
+            </div>
+        </article>
+    </div>
+</section>
+
+<!-- ============ LOCAL ESSENTIALS ============ -->
+<section id="essentials" class="local-essentials">
+    <div class="section-header">
+        <h2 class="section-title">Local Essentials</h2>
+        <p class="section-subtitle">Everything you need for a comfortable visit</p>
+    </div>
+
+    <div class="essentials-grid">
+        <!-- Food -->
+        <div class="essential-card">
+            <div class="essential-icon">🍽️</div>
+            <h3>Must-Try Local Cuisine</h3>
+            <ul class="essential-list">
+                <li><strong>Naan & Biryani:</strong> Authentic Mughlai dishes</li>
+                <li><strong>Khichdi:</strong> Traditional comfort food</li>
+                <li><strong>Jaggery Sweets:</strong> Local delicacies</li>
+                <li><strong>Chai & Snacks:</strong> Tea stalls throughout city</li>
+            </ul>
+            <p class="essential-tip">💡 Tip: Street vendors near heritage sites offer authentic experiences at budget prices.</p>
+        </div>
+
+        <!-- Hotels -->
+        <div class="essential-card">
+            <div class="essential-icon">🏨</div>
+            <h3>Accommodation Options</h3>
+            <ul class="essential-list">
+                <li><strong>Luxury Hotels:</strong> 5-star near city center</li>
+                <li><strong>Mid-range Hotels:</strong> Good comfort & value</li>
+                <li><strong>Budget Lodges:</strong> Economical stays</li>
+                <li><strong>Heritage Hotels:</strong> Unique cultural experience</li>
+            </ul>
+            <p class="essential-tip">💡 Tip: Book hotels near Panchakki or Bibi Ka Maqbara for easy site access.</p>
+        </div>
+
+        <!-- Transport -->
+        <div class="essential-card">
+            <div class="essential-icon">🚕</div>
+            <h3>Local Transport</h3>
+            <ul class="essential-list">
+                <li><strong>Auto-Rickshaw:</strong> ₹10-50 for short distances</li>
+                <li><strong>Taxis:</strong> ₹15/km (negotiate or use apps)</li>
+                <li><strong>Local Buses:</strong> ₹5-20 per journey</li>
+                <li><strong>Hired Vehicles:</strong> Full-day tours available</li>
+            </ul>
+            <p class="essential-tip">💡 Tip: Hire an auto for a full-day tour to multiple sites (₹1000-1500).</p>
+        </div>
+
+        <!-- Practical Info -->
+        <div class="essential-card">
+            <div class="essential-icon">ℹ️</div>
+            <h3>Practical Information</h3>
+            <ul class="essential-list">
+                <li><strong>Best Season:</strong> October to March (cool weather)</li>
+                <li><strong>Entry Fees:</strong> ₹50-500 depending on site</li>
+                <li><strong>Languages:</strong> Hindi, Marathi, English spoken</li>
+                <li><strong>Currency:</strong> Indian Rupee (INR)</li>
+            </ul>
+            <p class="essential-tip">💡 Tip: Carry water, sunscreen, and comfortable walking shoes.</p>
+        </div>
+    </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer" id="contact">
+    <div class="footer-content">
+        <div class="footer-section">
+            <h4>Chhatrapati Sambhajinagar Tourism</h4>
+            <p>Explore the heritage and culture of the Deccan plateau.</p>
+        </div>
+        <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="#sites">Historic Sites</a></li>
+                <li><a href="#essentials">Local Essentials</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>Contact</h4>
+            <p>📞 +91 XXXX XXXX XXXX</p>
+            <p>📧 info@sambhajinagar-tourism.com</p>
+        </div>
+    </div>
+    <div class="footer-divider"></div>
+    <div class="footer-bottom">
+        <p>&copy; 2025 Chhatrapati Sambhajinagar Tourism. Built with heritage in mind. 🏛️</p>
+    </div>
+</footer>
+
+<!-- Scripts -->
+<script src="js/scrollReveal.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
